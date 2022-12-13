@@ -8,6 +8,7 @@ return (
 			  <Todo text='Start page' />
 			  <Todo text='Dashboard' />
 			  <Todo text='Second Dashboard' />
+			  <Todo text='One Dashboard' />
        </div>
 );
 }
