@@ -1,5 +1,3 @@
-import Modal from "./components/Modal";
-import Backdrop from "./components/Backdrop";
 import Todo from "./components/Todo";
 
 
@@ -10,8 +8,7 @@ return (
 			  <Todo text='Start page' />
 			  <Todo text='Dashboard' />
 			  <Todo text='Second Dashboard' />
-			  <Modal />
-			  <Backdrop />
+			
        </div>
 );
 }
