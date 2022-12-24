@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import NewMeetupForm from '../components/meetups/NewMeetupForm';
 
 function NewMeetupPage() {
-  const history = useNavigate();
+  const history = useNavigate	();
 
   function addMeetupHandler(meetupData) {
     fetch(
