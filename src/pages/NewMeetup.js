@@ -5,6 +5,7 @@ import NewMeetupForm from '../components/meetups/NewMeetupForm';
 function NewMeetupPage() {
   const history = useNavigate	();
 
+
   function addMeetupHandler(meetupData) {
     fetch(
       'https://meetups-a9df8-default-rtdb.firebaseio.com//meetups.json',
@@ -16,7 +17,7 @@ function NewMeetupPage() {
         },
       }
     ).then(() => {
-      history.replace('/');
+       history.replace('/');
     });
   }
 
